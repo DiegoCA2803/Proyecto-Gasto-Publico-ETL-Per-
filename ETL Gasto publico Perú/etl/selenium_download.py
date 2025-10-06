@@ -17,7 +17,7 @@ from selenium.webdriver.common.by import By
 
 URL_DATASET = "https://datosabiertos.mef.gob.pe/dataset/presupuesto-y-ejecucion-de-gasto"
 
-# Carpetas fijas (NO CAMBIAR)
+# Carpetas fijas 
 BASE_DIR = Path(__file__).resolve().parents[1]
 RUTA_CHROMEDRIVER = r"Ruta del driver de Chrome"
 CARPETA_RAW = BASE_DIR / "data" / "raw"
@@ -299,3 +299,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
